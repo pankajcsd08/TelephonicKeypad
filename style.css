@@ -1,0 +1,39 @@
+/*Set the height, width & properties of text area*/
+input {
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    border-color:rgb(205, 203, 203);
+    font-size: 25px;
+    color:peru;;
+}
+/*Set the Background color*/
+  body{
+    background-color: #f3f5f5;
+  }
+  /*Outline the teaxt are none when focused */
+  textarea:focus, input:focus{
+    outline: none;
+}
+/*Set the Button Properties */
+button {
+    height: 75px;
+    width: 120px;
+    padding: 12px 40px;
+    font-size: 16px;
+    background-color: rgba(230, 230, 230);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    box-shadow: 3px 4px 24px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    transition: 0.2s all;
+    border-color:rgb(186, 184, 184);
+}
+/* Adding transformation when the button is active */
+  
+button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
